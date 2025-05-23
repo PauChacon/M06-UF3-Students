@@ -1,5 +1,37 @@
 # M06-UF3-Students
 
+## PROBES SWAGGER
+
+### GetAll
+Aqui fa un select de tota la base de dades
+![image](https://github.com/user-attachments/assets/d3c2bfa0-ba2f-4e59-8052-4e8ab108db82)
+
+### SelectById
+Aqui busca per un estudiant en concret per la seva id
+![image](https://github.com/user-attachments/assets/49a31ec9-3346-40c9-9fa1-fc20d289b3d3)
+
+### SelectByName
+Aqui el que busca es un estudiant per el seu nom pero no cal que sigui exactement el correcte osigui que si buscas "Josep" i poses "Jos" et retornara Joseps, Joses, Jose Marias, Joselitos etc
+![image](https://github.com/user-attachments/assets/d1774a0e-0533-4b69-bb7a-708aba623cfa)
+
+### Delete
+Borra estudiant per id
+![image](https://github.com/user-attachments/assets/df4c64c6-d5d9-4b6d-9b6d-9025690622f2)
+comprobació de que no existeix, mateixa id pero ja no el troba:
+![image](https://github.com/user-attachments/assets/bb5a9742-b719-4d54-b3b3-7f785446fc8a)
+
+### INSERT
+insert de student
+![image](https://github.com/user-attachments/assets/0527ea52-a5a7-44e7-90a0-f30bd873fd82)
+![image](https://github.com/user-attachments/assets/4d356b71-a32e-43d2-9d1c-542db8837831)
+
+### Update
+![image](https://github.com/user-attachments/assets/22083976-655b-489b-b655-97eddbad627d)
+![image](https://github.com/user-attachments/assets/54dcbe5a-7d28-4eac-93ea-f1ff9624b55f)
+
+
+
+
 ## PREGUNTES DE REFLEXIÓ
 
 ### 1.Afegiu un endpoint que cerqui per un camp de tipus String on feu servir regex. Afegiu el que calgui al servei, repositori, etc.
