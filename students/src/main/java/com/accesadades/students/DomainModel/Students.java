@@ -19,9 +19,10 @@ import lombok.Setter;
 @Setter
 public class Students implements Serializable {
 	@Id
-    private Long _id;
+    private String _id;
     private String name;
-    private String lastname;
+    private String lastname1;
+    private String lastname2;
     private char gender;
     private String email;
     private String phone;

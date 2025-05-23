@@ -1,15 +1,17 @@
 package com.accesadades.students.Services;
 
-import java.util.List;
-import java.util.Optional;
+import com.accesadades.students.DTO.StudentsDTO;
+import com.accesadades.students.DomainModel.Students;
 
-public interface StudentsService<T,ID> {
-    List<T> findAll();
+import reactor.core.publisher.Flux;
+import reactor.core.publisher.Mono;
 
-    Optional<T> findById(ID id);
+public interface StudentsService {
+    Mono<Students> save(StudentsDTO dto);
+    Mono<Students> findById(String id);
+    Flux<Students> findAll();
+    Mono<Students> update(StudentsDTO dto);
+    Mono<Void> delete(String id);
+    Flux<Students> findByName(String name);
 
-    void save(T entity);
-
-    void deleteById(ID id);
-    
 }
